@@ -41,15 +41,15 @@ export default function Navbar() {
                             <div className="absolute top-1/2 left-1/2 w-6 -translate-x-1/2 -translate-y-1/2 transform">
                                 <span
                                     aria-hidden="true"
-                                    className={`absolute block h-0.5 w-9/12 -translate-y-2 transform rounded-full  ${isToggleOpen ? "bg-slate-900" : "bg-slate-200"} transition-all duration-300`}
+                                    className={`absolute block h-0.5 w-9/12 -translate-y-2 transform rounded-full  ${isToggleOpen ? "bg-slate-200" : "bg-slate-200"} transition-all duration-300`}
                                 ></span>
                                 <span
                                     aria-hidden="true"
-                                    className={`absolute block h-0.5 w-6 transform rounded-full transition duration-300   ${isToggleOpen ? "bg-slate-900" : "bg-slate-200"}`}
+                                    className={`absolute block h-0.5 w-6 transform rounded-full transition duration-300   ${isToggleOpen ? "bg-slate-200" : "bg-slate-200"}`}
                                 ></span>
                                 <span
                                     aria-hidden="true"
-                                    className={`absolute block h-0.5 w-1/2 origin-top-left translate-y-2 transform rounded-full  transition-all duration-300 ${isToggleOpen ? "bg-slate-900" : "bg-slate-200"}`}
+                                    className={`absolute block h-0.5 w-1/2 origin-top-left translate-y-2 transform rounded-full  transition-all duration-300 ${isToggleOpen ? "bg-slate-200" : "bg-slate-200"}`}
                                 ></span>
                             </div>
                         </button>
@@ -57,7 +57,7 @@ export default function Navbar() {
                         <ul
                             role="menubar"
                             aria-label="Select page"
-                            className={`absolute top-0 left-0 z-[-1] h-[28.5rem] w-full justify-center overflow-hidden  overflow-y-auto overscroll-contain bg-white/90 px-8 pb-12 pt-24 font-medium transition-[opacity,visibility] duration-300 lg:visible lg:relative lg:top-0  lg:z-0 lg:flex lg:h-full lg:w-auto lg:items-stretch lg:overflow-visible lg:bg-white/0 lg:px-0 lg:py-0  lg:pt-0 lg:opacity-100 ${isToggleOpen
+                            className={`absolute top-0 left-0 z-[-1] h-[28.5rem] w-full justify-center overflow-hidden  overflow-y-auto overscroll-contain bg-primary  px-8 pb-12 pt-24 font-medium transition-[opacity,visibility] duration-300 lg:visible lg:relative lg:top-0  lg:z-0 lg:flex lg:h-full lg:w-auto lg:items-stretch lg:overflow-visible lg:bg-white/0 lg:px-0 lg:py-0  lg:pt-0 lg:opacity-100 ${isToggleOpen
                                 ? "visible opacity-100 backdrop-blur-sm"
                                 : "invisible opacity-0"
                                 }`}
@@ -67,7 +67,7 @@ export default function Navbar() {
                                     role="menuitem"
                                     aria-haspopup="false"
                                     tabIndex="0"
-                                    className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-indigo-500 focus:bg-indigo-50 focus:outline-none focus-visible:outline-none lg:px-8"
+                                    className="flex items-center gap-2 text-indigo-50 py-4 transition-colors duration-300 hover:text-indigo-500 focus:bg-indigo-50 focus:outline-none focus-visible:outline-none lg:px-8"
                                     to="/skills"
                                 >
                                     <span>Features</span>
@@ -79,7 +79,7 @@ export default function Navbar() {
                                     aria-current="page"
                                     aria-haspopup="false"
                                     tabIndex="0"
-                                    className="flex items-center gap-2 py-4 text-indigo-500 transition-colors duration-300 hover:text-indigo-600 focus:bg-indigo-50 focus:outline-none focus-visible:outline-none lg:px-8"
+                                    className="flex items-center gap-2 py-4 text-indigo-50 transition-colors duration-300 hover:text-indigo-600 focus:bg-indigo-50 focus:outline-none focus-visible:outline-none lg:px-8"
                                     to="/projects"
                                 >
                                     <span>Projects</span>
@@ -90,7 +90,7 @@ export default function Navbar() {
                                     role="menuitem"
                                     aria-haspopup="false"
                                     tabIndex="0"
-                                    className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-indigo-500 focus:bg-indigo-50 focus:outline-none focus-visible:outline-none lg:px-8"
+                                    className="flex items-center gap-2 py-4 text-indigo-50 transition-colors duration-300 hover:text-indigo-500 focus:bg-indigo-50 focus:outline-none focus-visible:outline-none lg:px-8"
                                     to=""
                                 >
                                     <span>Contact</span>

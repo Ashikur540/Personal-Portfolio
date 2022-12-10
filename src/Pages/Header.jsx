@@ -22,7 +22,8 @@ const Header = () => {
                         </h1>
                         <p class="mt-4  dark:text-gray-300">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut quia asperiores alias vero magnam recusandae adipisci ad vitae laudantium quod rem voluptatem eos accusantium cumque.</p>
                         <div class="mt-6">
-                            <a href="https://drive.google.com/file/d/1LAZtQboKcl-DxAY9H7FcVFfmLopsmBEx/view?usp=share_link" class="px-6 py-2.5 mt-6 text-sm font-medium leading-5 text-center text-white capitalize bg-accent rounded-lg hover:bg-yellow-700 lg:mx-0 lg:w-auto focus:outline-none">Download Resume</a>
+
+                            <a href="https://drive.google.com/file/d/1LAZtQboKcl-DxAY9H7FcVFfmLopsmBEx/view?usp=share_link" className="group text-accent text-md md:text-lg font-semibold hover:text-amber-500 transition ease-in-out duration-200">Download Resume <span aria-hidden="true" class="inline-block translate-x-0 group-hover:translate-x-1 transition-transform ease-in-out duration-200">→</span></a>
                         </div>
                     </div>
                 </div>
