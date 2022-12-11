@@ -14,7 +14,7 @@ import tailwindcss from '../Assets/Logos/tailwind-css-2.svg';
 import vercel from '../Assets/Logos/vercel.svg';
 const Skills = () => {
     return (
-        <section id='skills' className="mt-10 bg-primary min-h-full">
+        <section id='skills' className="mt-10  min-h-full">
             <h1 className="text-2xl md:text-4xl font-semibold text-center my-8 text-white">My Skills</h1>
             <div className="container mx-auto  grid md:gap-6 lg:gap-10 grid-cols-1 md:grid-cols-2 px-10  md:px-16 lg:px-24">
                 <div className="frontEnd w-full  mx-auto">
@@ -69,7 +69,7 @@ const Skills = () => {
                                 <img src={tailwindcss} alt="figma" className="w-1/2 hover:-translate-y-1 hover:duration-150" />
                             </div>
                             <div className="skill-info text-center mt-1">
-                                <h4 className="text-lg font-medium">Javacript</h4>
+                                <h4 className="text-lg font-medium">Tailwind</h4>
                                 <h4 className="text-md">Advanced</h4>
                             </div>
 
@@ -79,7 +79,7 @@ const Skills = () => {
                                 <img src={bootstrap} alt="figma" className="w-1/2 hover:-translate-y-1 hover:duration-150" />
                             </div>
                             <div className="skill-info text-center mt-1">
-                                <h4 className="text-lg font-medium">Javacript</h4>
+                                <h4 className="text-lg font-medium">Bootstrap</h4>
                                 <h4 className="text-md">Advanced</h4>
                             </div>
 

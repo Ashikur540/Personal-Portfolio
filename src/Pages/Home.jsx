@@ -1,13 +1,23 @@
 import React from 'react'
+import Footer from '../Components/Shared/Footer'
+import { About } from './About'
+import Contact from './Contact'
 import Header from './Header'
+import Projects from './Projects'
 import Skills from './Skills'
 
 const Home = () => {
     return (
-        <div className="bg-primary">
+        <>
             <Header />
+            {/* <Hero /> */}
             <Skills />
-        </div>
+            <Projects />
+            <About />
+            <Contact />
+            <Footer />
+
+        </>
     )
 }
 

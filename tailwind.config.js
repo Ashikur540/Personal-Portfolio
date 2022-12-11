@@ -7,7 +7,9 @@ module.exports = {
     themes: [
       {
         PortfolioDark: {
-          "primary": "#1E1C2B",
+          "primary": "#181724",
+
+          "acromin": "#FAF8FF",
 
           "secondary": "#252836",
 
@@ -22,6 +24,7 @@ module.exports = {
           "warning": "#F4C152",
 
           "error": "#FB6F84",
+
         },
       },
     ],

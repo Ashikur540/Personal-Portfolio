@@ -7,6 +7,28 @@
 body {
   margin: 0;
   font-family: "IBM Plex Sans", sans-serif;
+  /* background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+   */
+  /* background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+   */
+  /* im */
+  background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+
+  /* background-image: linear-gradient(
+    to right top,
+    #181724,
+    #1a1a28,
+    #1c1d2b,
+    #1d212f,
+    #1f2432,
+    #202633,
+    #212834,
+    #232a35,
+    #242b33,
+    #262b31,
+    #282c30,
+    #2a2c2e
+  ); */
 }
 
 code {
